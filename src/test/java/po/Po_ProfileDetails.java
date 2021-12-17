@@ -93,7 +93,7 @@ public class Po_ProfileDetails {
 				EnterPassword(myData.get(1).toString());
 				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 				Clicklogin();
-				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+				Thread.sleep(2000);
 				getTest().log(LogStatus.INFO, "Expected Toast is: ", toast1);
 				Assert.assertEquals(VerifyToast(), toast1);
 				System.out.println(VerifyToast());
