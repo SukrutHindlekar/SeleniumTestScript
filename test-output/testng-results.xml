@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-16T13:31:57 IST" name="SuperTournament" finished-at="2021-12-16T13:31:59 IST" duration-ms="1886">
+    <groups>
+    </groups>
+    <test started-at="2021-12-16T13:31:57 IST" name="Testcase_ProfileDetails" finished-at="2021-12-16T13:31:59 IST" duration-ms="1886">
+    </test> <!-- Testcase_ProfileDetails -->
+  </suite> <!-- SuperTournament -->
+</testng-results>

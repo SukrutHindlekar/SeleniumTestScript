@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegisterUser" verbose="1" >
+<listeners>
+       <listener class-name="listeners.TestListener"/>
+       <!--  <listener class-name="resources.ExtentReporterNG"/>   -->    
+</listeners>
+  <test name="Testcase_RegisterUser" >  
+  <parameter name ="browser" value = "chrome.exe"/>
+  <parameter name ="url" value = "http://fanbuku-user-app.s3-website.ap-south-1.amazonaws.com/#/signup"/>
+    <classes>
+    	<class name="testcase.Testcase_RegisterUser" />
+    </classes>
+  </test>
+ </suite>

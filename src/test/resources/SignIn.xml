@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="signIn" verbose="1" >
+<listeners>
+       <listener class-name="listeners.TestListener"/>
+      <!--  <listener class-name="resources.ExtentReporterNG"/>   -->    
+</listeners>
+  <test name="Testcase_Signin" >  
+  <parameter name ="browser" value = "chrome.exe"/>
+  <parameter name ="url" value = "http://fanbuku-user-app.s3-website.ap-south-1.amazonaws.com/#/login"/>
+    <classes>
+    	<class name="testcase.Testcase_Signin" />
+    </classes>
+  </test>
+ </suite>
